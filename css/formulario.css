@@ -1,0 +1,61 @@
+body{
+    background-color: dimgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cabecalho-titulo{
+    background-color: darkslategray;
+    max-width: 880px;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.titulo{
+    color: orange;
+}
+
+main {
+    background-color: burlywood;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.labels{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.labels:first-child{
+    margin-top: 20px;
+}
+
+.inputs {
+    margin-bottom: 10px;
+    padding: 10px 10px 5px 10px;
+    font-size: 15px;
+    border: none;
+    border-bottom: solid 3px darkslategray;
+}
+
+.botao-submit{
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: saddlebrown;
+    color: white;
+    font-weight: bold;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.botao-submit:hover{
+    background-color: wheat;
+    color: black;
+}
